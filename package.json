@@ -1,0 +1,36 @@
+{
+  "name": "ydtb-patches",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "description": "YDTB Elementor Widgets",
+  "homepage": "https://yourdigitaltoolbox.com",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "authors": [
+    {
+      "name": "John Kraczek",
+      "email": "john@yourdigitaltoolbox.com"
+    }
+  ],
+  "scripts": {
+    "build": "bun @tailwindcss/cli -i ./src/client/styles/tailwind.css -o ./dist/css/style.css",
+    "watch": "bun @tailwindcss/cli -i ./src/client/styles/tailwind.css -o ./dist/css/style.css --watch"
+  },
+  "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
+    "mini-css-extract-plugin": "^2.9.2",
+    "release-it": "^17.10.0",
+    "tailwindcss": "^4.0.4"
+  },
+  "browserslist": [
+    "extends @roots/browserslist-config"
+  ],
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.4"
+  }
+}
