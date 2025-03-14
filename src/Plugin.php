@@ -4,6 +4,7 @@ namespace YDTBPatchesRoot;
 
 use YDTBPatches\Utils\Updater;
 use YDTBPatches\Patches\SilenceTextDomainNotice;
+use YDTBPatches\Provider\HideAdminNotices;
 
 class Plugin
 {
@@ -29,6 +30,7 @@ class Plugin
     {
         return [
             SilenceTextDomainNotice::class,
+            HideAdminNotices::class,
             Updater::class
         ];
     }
