@@ -1,8 +1,8 @@
 {
-    "name": "ydtbwp/s3-uploads-patch",
+    "name": "ydtb/ydtb-patches",
     "type": "wordpress-plugin",
     "license": "MIT",
-    "description": "A Simple Patch for S3 Uploads to work with Trellis",
+    "description": "A collection of patches for Wordpress core and plugins to fix bugs and add features.",
     "homepage": "https://yourdigitaltoolbox.com",
     "authors": [
         {
