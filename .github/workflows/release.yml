@@ -1,4 +1,4 @@
-name: Build And Release Plugin Version
+name: Build And Release Plugin Version a
 
 on:
   workflow_dispatch:
