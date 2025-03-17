@@ -10,7 +10,6 @@
  * Text Domain: ydtb-patches
  * Domain Path: /languages/
  * License:     GPLv3 or later (license.txt)
- * Data: "afce4c3b-2d1f-4a5d-8f9b-0c6e7f3a2b5d"
  */
 
 // Exit if accessed directly

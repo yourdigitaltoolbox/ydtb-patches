@@ -1,21 +1,14 @@
 <?php
 
-namespace YDTBPatches\Provider;
+namespace YDTBPatches\Patches;
 
 use YDTBPatches\Interfaces\Provider;
-use YDTBPatches\Commands\AdminNoticeCLI;
 
 class HideAdminNotices implements Provider
 {
     public function register()
     {
         add_action('in_admin_header', [$this, 'disable_some_admin_notices']);
-
-        if (!defined('WP_CLI') || !WP_CLI) {
-            return;
-        }
-
-        \WP_CLI::add_command('hide-notice', AdminNoticeCLI::class);
     }
 
     public function disable_some_admin_notices()
