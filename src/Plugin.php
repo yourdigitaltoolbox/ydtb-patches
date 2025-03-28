@@ -5,6 +5,7 @@ namespace YDTBPatchesRoot;
 use YDTBPatches\Utils\Updater;
 use YDTBPatches\Patches\SilenceTextDomainNotice;
 use YDTBPatches\Patches\HideAdminNotices;
+use YDTBPatches\Patches\JetEngineQBuilder;
 use YDTBPatches\Provider\CommandServiceProvider;
 
 class Plugin
@@ -33,6 +34,7 @@ class Plugin
             SilenceTextDomainNotice::class,
             HideAdminNotices::class,
             CommandServiceProvider::class,
+            JetEngineQBuilder::class,
             Updater::class
         ];
     }
