@@ -6,7 +6,7 @@
  * Description: A collection of patches for Wordpress core and plugins to fix bugs and add features.
  * Author:      John Kraczek
  * Author URI:  https://yourdigitaltoolbox.com/
- * Version:     0.0.9
+ * Version:     0.0.10
  * Text Domain: ydtb-patches
  * Domain Path: /languages/
  * License:     GPLv3 or later (license.txt)
